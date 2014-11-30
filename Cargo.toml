@@ -2,8 +2,17 @@
 name = "cl-combat-sim"
 version = "0.0.1"
 authors = ["Mark E. McDermott <mark.elias.mcdermott@gmail.com>"]
-path = "src/client"
 
+[lib]
+name = "cl"
+path = "src/lib.rs"
 
+[[bin]]
+name = "cl-combat-simulator"
+path = "src/bin/cl-combat-sim.rs"
+
+[[bin]]
+name = "cl-cs-server"
+path = "src/bin/cl-cs-server.rs"
 
 
