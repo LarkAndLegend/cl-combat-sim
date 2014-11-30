@@ -1,5 +1,9 @@
 [package]
-
 name = "cl-combat-sim"
 version = "0.0.1"
 authors = ["Mark E. McDermott <mark.elias.mcdermott@gmail.com>"]
+path = "src/client"
+
+
+
+
