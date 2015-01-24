@@ -1,13 +1,9 @@
 // COSMOLARK COMBAT SIMULATOR DEDICATED SERVER
 
-extern crate cl;
+//extern crate cl;
 
 fn main() {
 
-    let mut mr = cl::message::MessageReceiver::new();
-
-    loop {
-        mr.process_next_message();
-    }
+    println!("Starting Cosmolark Combat Simulator: Dedicated Server");
 
 }

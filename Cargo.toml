@@ -3,9 +3,15 @@ name = "cl-combat-sim"
 version = "0.0.1"
 authors = ["Mark E. McDermott <mark.elias.mcdermott@gmail.com>"]
 
-[lib]
-name = "cl"
-path = "src/lib.rs"
+[dependencies.glutin]
+git = "https://github.com/tomaka/glutin.git"
+
+[dependencies.gl]
+git = "https://github.com/bjz/gl-rs"
+
+#[lib]
+#name = "cl"
+#path = "src/lib.rs"
 
 [[bin]]
 name = "cl-combat-simulator"
